@@ -789,28 +789,12 @@ hr {
           left: 50%;
           bottom: 2px; } }
 .btn {
-  background: #a6a19c;
-  background-image: -webkit-linear-gradient(top, #a6a19c, #776e65);
-  background-image: -moz-linear-gradient(top, #a6a19c, #776e65);
-  background-image: -ms-linear-gradient(top, #a6a19c, #776e65);
-  background-image: -o-linear-gradient(top, #a6a19c, #776e65);
-  background-image: linear-gradient(to bottom, #a6a19c, #776e65);
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  width: 191.5px;
+  height: 57.5px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #faf8ef;
   text-decoration: none;
 }
