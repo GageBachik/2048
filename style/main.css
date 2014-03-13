@@ -798,3 +798,20 @@ hr {
   background: #faf8ef;
   text-decoration: none;
 }
+
+.hbtn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #faf8ef;
+  font-size: 20px;
+  background: #8f7a66;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.hbtn:hover {
+  background: #776e65;
+  text-decoration: none;
+}
