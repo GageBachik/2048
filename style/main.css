@@ -801,10 +801,19 @@ hr {
 .btn {
   width: 191.5px;
   height: 57.5px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  color: #faf8ef;
+  background: #8f7a66;
   text-decoration: none;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
 }
 
 .btn:hover {
+  color: #8f7a66;
   background: #faf8ef;
   text-decoration: none;
 }
