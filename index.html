@@ -77,13 +77,13 @@
 
     CocoonJS.App.onLoadInTheWebViewSucceed.addEventListener(function(pageURL) {
         // Show the webview. By default, the webview is hidden.
-        banner.showBanner();
         CocoonJS.App.showTheWebView();
         banner.showBanner();
       });
 
       CocoonJS.App.onLoadInTheWebViewFailed.addEventListener(function(pageURL) {
         console.error("Could not load the HTML file in the webview");
+        banner.showBanner();
       });
 
       CocoonJS.App.loadInTheWebView("index.html");
