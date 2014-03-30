@@ -70,23 +70,12 @@
 
     banner.onBannerReady.addEventListener(function(width, height)
     {
-    var x=window.innerWidth / 2 - width / 2,y=0; //Middle of screen
+    var x=window.innerWidth / 2 + width / 2 , y=0; //Middle of screen
     var rect = new CocoonJS.Ad.Rectangle(x, y, width, height);
     banner.setRectangle(rect);
     banner.showBanner();
     })
 
-    CocoonJS.App.onLoadInTheWebViewSucceed.addEventListener(function(pageURL) {
-        // Show the webview. By default, the webview is hidden.
-        CocoonJS.App.showTheWebView();
-        
-      });
-
-      CocoonJS.App.onLoadInTheWebViewFailed.addEventListener(function(pageURL) {
-        console.error("Could not load the HTML file in the webview");
-        
-      });
-      
       CocoonJS.App.loadInTheWebView("index.html");
       
 
